@@ -1,5 +1,50 @@
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 100;
+  src: url("src/fonts/Aileron-Thin.woff2") format("woff2"), url("src/fonts/Aileron-Thin.woff") format("woff"), url("src/fonts/Aileron-Thin.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 200;
+  src: url("src/fonts/Aileron-UltraLight.woff2") format("woff2"), url("src/fonts/Aileron-UltraLight.woff") format("woff"), url("src/fonts/Aileron-UltraLight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 300;
+  src: url("src/fonts/Aileron-Light.eot?") format("eot"), url("src/fonts/Aileron-Light.woff2") format("woff2"), url("src/fonts/Aileron-Light.woff") format("woff"), url("src/fonts/Aileron-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 400;
+  src: url("src/fonts/Aileron-Regular.woff2") format("woff2"), url("src/fonts/Aileron-Regular.woff") format("woff"), url("src/fonts/Aileron-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 600;
+  src: url("src/fonts/Aileron-SemiBold.woff2") format("woff2"), url("src/fonts/Aileron-SemiBold.woff") format("woff"), url("src/fonts/Aileron-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 700;
+  src: url("src/fonts/Aileron-Bold.woff2") format("woff2"), url("src/fonts/Aileron-Bold.woff") format("woff"), url("src/fonts/Aileron-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 900;
+  src: url("src/fonts/Aileron-Black.woff2") format("woff2"), url("src/fonts/Aileron-Black.woff") format("woff"), url("src/fonts/Aileron-Black.ttf") format("truetype"); }
+
 body {
-  background-color: lightgrey; }
+  background-color: lightgrey;
+  font-family: "Aileron", sans-serif;
+  font-size: 20px;
+  font-weight: 100; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -11,20 +56,19 @@ body {
   /**/ }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  /*Disable Animation on Mobile Devices*/
-  .animated {
-    /*CSS transitions*/
-    -o-transition-property: none !important;
-    -webkit-transition-property: none !important;
-    transition-property: none !important;
-    /*CSS transforms*/
-    -ms-transform: none !important;
-    -webkit-transform: none !important;
-    transform: none !important;
-    /*CSS animations*/
-    -webkit-animation: none !important;
-    animation: none !important; } }
+/*Disable Animation on Mobile Devices*/
+.animated {
+  /*CSS transitions*/
+  -o-transition-property: none !important;
+  -webkit-transition-property: none !important;
+  transition-property: none !important;
+  /*CSS transforms*/
+  -ms-transform: none !important;
+  -webkit-transform: none !important;
+  transform: none !important;
+  /*CSS animations*/
+  -webkit-animation: none !important;
+  animation: none !important; }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {

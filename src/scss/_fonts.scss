@@ -1,0 +1,9 @@
+@import "mixins";
+
+@include font-face(Aileron, src/fonts/Aileron-Thin, 100, normal, woff2 woff ttf);
+@include font-face(Aileron, src/fonts/Aileron-UltraLight, 200, normal, woff2 woff ttf);
+@include font-face(Aileron, src/fonts/Aileron-Light, 300, normal, eot woff2 woff ttf); 
+@include font-face(Aileron, src/fonts/Aileron-Regular, 400, normal, woff2 woff ttf);
+@include font-face(Aileron, src/fonts/Aileron-SemiBold, 600, normal, woff2 woff ttf);
+@include font-face(Aileron, src/fonts/Aileron-Bold, 700, normal, woff2 woff ttf);
+@include font-face(Aileron, src/fonts/Aileron-Black, 900, normal, woff2 woff ttf);
