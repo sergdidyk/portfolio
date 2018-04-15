@@ -68,21 +68,23 @@ var gulp				 = require('gulp'),
 			gulp.watch('src/scss/**/*.scss', ['sass']);
 			gulp.watch('src/*.html', browserSync.reload);
 			gulp.watch('src/js/**/*.js', browserSync.reload);
+			gulp.watch('src/fonts/**/*', browserSync.reload);
 		});
 
 		gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function(){
-			var buildCss = gulp.src([
-					'src/css/main.css',
-					'src/css/libs.min.css'
-				])
-			.pipe(gulp.dest('dist/css'));
-
 			var buildFonts = gulp.src('src/fonts/**/*')
-			.pipe(gulp.dest('dist/fonts'));
+											.pipe(gulp.dest('dist/fonts'));
+
+			var buildCss = gulp.src([
+					'src/css/fonts.css',
+					'src/css/main.css',
+					'src/css/libs.min.css',
+				])
+				.pipe(gulp.dest('dist/css'));
 
 			var buildJs = gulp.src('src/js/**/*')
 			.pipe(gulp.dest('dist/js'));
 
-			var buildHtml = gulp.src('app/*.html')
+			var buildHtml = gulp.src('src/*.html')
 			.pipe(gulp.dest('dist'));
 		});

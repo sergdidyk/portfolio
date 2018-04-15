@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/Aileron-UltraLight/Aileron-UltraLight.woff2") format("woff2"), url("../fonts/Aileron-UltraLight/Aileron-UltraLight.woff") format("woff"), url("../fonts/Aileron-UltraLight/Aileron-UltraLight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/Aileron-Thin/Aileron-Thin.woff2") format("woff2"), url("../fonts/Aileron-Thin/Aileron-Thin.woff") format("woff"), url("../fonts/Aileron-Thin/Aileron-Thin.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Aileron-Light/Aileron-Light.eot?") format("eot"), url("../fonts/Aileron-Light/Aileron-Light.woff2") format("woff2"), url("../fonts/Aileron-Light/Aileron-Light.woff") format("woff"), url("../fonts/Aileron-Light/Aileron-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Aileron-Regular/Aileron-Regular.woff2") format("woff2"), url("../fonts/Aileron-Regular/Aileron-Regular.woff") format("woff"), url("../fonts/Aileron-Regular/Aileron-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Aileron-SemiBold/Aileron-SemiBold.woff2") format("woff2"), url("../fonts/Aileron-SemiBold/Aileron-SemiBold.woff") format("woff"), url("../fonts/Aileron-SemiBold/Aileron-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Aileron-Bold/Aileron-Bold.woff2") format("woff2"), url("../fonts/Aileron-Bold/Aileron-Bold.woff") format("woff"), url("../fonts/Aileron-Bold/Aileron-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Aileron-Black/Aileron-Black.woff2") format("woff2"), url("../fonts/Aileron-Black/Aileron-Black.woff") format("woff"), url("../fonts/Aileron-Black/Aileron-Black.ttf") format("truetype"); }
