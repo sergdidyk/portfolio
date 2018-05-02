@@ -1,8 +1,14 @@
+body, html {
+  height: 100%; }
+
 body {
-  background-color: lightgrey;
+  font-size: 16px;
+  max-width: 320px;
+  position: relative;
+  line-height: 1.75;
   font-family: "Aileron", sans-serif;
-  font-size: 150px;
-  font-weight: 100; }
+  overflow-x: hidden;
+  opacity: 1; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */

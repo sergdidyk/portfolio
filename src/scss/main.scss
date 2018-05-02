@@ -1,10 +1,17 @@
 @import "vars";
 
+body, html{
+	height: 100%;
+}
+
 body{
-	background-color: lightgrey;
-	font-family: "Aileron", sans-serif;
-	font-size: 150px;
-	font-weight: 100;
+	font-size: 16px;
+	max-width: 320px;
+	position: relative;
+	line-height: 1.75;
+	font-family: $default-font;
+	overflow-x: hidden;
+	opacity: 1;
 }
 
 //ALWAYS END
